@@ -1,0 +1,33 @@
+<?xml-stylesheet type="text/css" href="studentlist.css" ?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<h1>STUDENT DATA</h1>
+</head>
+<students>
+<student>
+<USN>USN :1by17cs002</USN>
+<NAME>name :david blain</NAME>
+<COLLEGE>college :bmsit</COLLEGE>
+<BRANCH>Branch :cse</BRANCH>
+<YEAR>year: 1999</YEAR>
+<EMAIL>email :samplemail@gmail.com</EMAIL>
+</student>
+<student>
+<USN>USN :1by17is042</USN>
+<NAME>name :shawn blakely</NAME>
+<COLLEGE>college :bmsit</COLLEGE>
+<BRANCH>Branch :ise</BRANCH>
+<YEAR>year: 1989</YEAR>
+<EMAIL>email :samplemail1322@gmail.com</EMAIL>
+</student>
+<student>
+<USN>USN :1by17ec002</USN>
+<NAME>name :daisy smith</NAME>
+<COLLEGE>college :skjbit</COLLEGE>
+<BRANCH>Branch :ece</BRANCH>
+<YEAR>year: 1993</YEAR>
+<EMAIL>email :samplemail422@gmail.com</EMAIL>
+</student>
+</students>
+</html>

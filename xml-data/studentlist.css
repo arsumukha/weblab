@@ -1,0 +1,27 @@
+student{
+    color:red;
+    display: block;
+}
+USN{
+    color:yellowgreen;
+    display: block;
+}
+NAME{
+    color: aqua;
+    display: block;
+}
+COLLEGE{
+    color:blueviolet;
+    display: block;
+}
+BRANCH{
+    color:green;
+    display: block;
+}
+EMAIL{
+    color:yellow;
+    display: block;
+}
+h1{
+    text-align: center;
+}

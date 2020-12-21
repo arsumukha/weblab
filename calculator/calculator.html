@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="table">
+        <table>
+            <th>
+                <td>Calculator</td>
+            </th>
+            <tr>
+                <td>
+                    <p>enter 1st number</p>
+                </td>
+                <td>
+                    <input type="number" id="n1" placeholder="enter a number." value="0" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>enter 2nd number</p>
+                </td>
+                <td>
+                    <input type="number" id="n2" placeholder="enter a number." value="0" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" value="+" id="add" onclick="calc(this.id)">+</button>
+                </td>
+                <td><button type="submit" value="-" id="sub" onclick="calc(this.id)">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" value="*" id="mul" onclick="calc(this.id)">*</button>
+                </td>
+                <td><button type="submit" value="/" id="div" onclick="calc(this.id)">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" id="answer" value="0" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit" id="clear" onclick="clearscr()">clear</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
